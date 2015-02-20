@@ -1,0 +1,7 @@
+Explain what a branch is, in your own words?
+
+A branch is 'an alternative reality' copy of master, in which you can do work, run tests, and add code without disrupting the master branch which may be depended on by many other devs.
+
+it is customry to merge the master into your branch before issuing a pull request. To make sure your edits are compatable to the master everyone is using. Not a historical master which has since changed.
+
+You can switch between master and branches at any time. It is good practice to have a different branch for different tasks. The branch name bieng inidicative of what work is being done within it!
