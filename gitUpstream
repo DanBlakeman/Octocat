@@ -1,0 +1,8 @@
+Explain what the "upstream" remote is usually used for, in your own words?
+
+upstream is typically a name given by devs to the original repo, your origin is forked from.
+
+Typically upstream is a repo used by many devs, who fork it to their own accounts, then clone this to their own machine.
+
+before issuing a pull request it is convention to fetch changes from upstream and fix any conflicts, before issuing - this will prevent unnessorcery work for the lead dev.
+
