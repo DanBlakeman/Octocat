@@ -1,0 +1,13 @@
+Explain what git clone does, in your own words
+
+To be used like: git clone *url here*
+
+Allows a user to clone a git repository to their own machine.
+
+Origin will be set to the original repository.
+
+git pushes to origin will move content from the users machine back to the original repo.
+
+Clone will keep the directory name unless you specify otherwise.
+
+You will inherit all commits of the origin repo.
